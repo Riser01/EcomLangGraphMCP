@@ -52,7 +52,7 @@ FALLBACK_MODEL=gemini-1.5-flash
 **Start Docker**
 docker-compose up --build 
 
-access Ui at : http://localhost:8501/
+**access Ui at : http://localhost:8501/**
 
 
 4. **Deploy with Docker**
