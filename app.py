@@ -89,20 +89,7 @@ class ChatbotApp:
             st.header("📋 Chat Information")
             st.write(f"**Session ID:** `{st.session_state.session_id[:8]}...`")
             st.write(f"**Messages:** {len(st.session_state.messages)}")
-            
-            # Fixed status logic - more intuitive
-            if st.session_state.conversation_started:
-                st.write("**Status:** 🟢 Active")
-            else:
-                # Check if the system is properly initialized
-                try:
-                    mcp_status = self.chatbot_service.get_mcp_status()
-                    if mcp_status['mcp_available']:
-                        st.write("**Status:** 🟢 Ready")
-                    else:
-                        st.write("**Status:** 🟡 Ready (MCP Issues)")
-                except:
-                    st.write("**Status:** 🟢 Ready")
+            st.write(f"**Status:** {'🟢 Active' if st.session_state.conversation_started else '🔴 Ready'}")
             
             st.divider()
             

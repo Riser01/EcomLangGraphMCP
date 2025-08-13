@@ -1,12 +1,10 @@
-# GreatBuy_mcp_server.py
-
 from mcp.server.fastmcp import FastMCP
 
 # --- Import GreatBuy Mock Data Sources ---
 from data import (
     _MOCK_WIKI_DB,
     _MOCK_SELLERS_DB,
-    _MOCK_LOGISTICS_PARTNERS_DB # Though not directly used in tools yet, good to import if related
+    _MOCK_LOGISTICS_PARTNERS_DB
 )
 # Use persistent order database instead of mock
 from persistent_data import persistent_orders_db
@@ -119,11 +117,9 @@ async def update_order_status(order_id: str, new_status: str) -> str:
 
     if normalized_new_status == "cancelled":
         current_status_lower = order["status"].lower()
-        # Ensure "Processing" is a cancellable state
         cancellable_statuses = ["processing", "awaiting shipment", "preparing for shipment"]
 
         if current_status_lower in cancellable_statuses:
-            # Use persistent database to update and save
             update_result = persistent_orders_db.update(order_id, {
                 "status": "Cancelled",
                 "estimated_delivery_time": None
@@ -155,12 +151,4 @@ async def update_order_status(order_id: str, new_status: str) -> str:
 if __name__ == "__main__":
     print("MCP server for GreatBuy Support Assistant Tools is running...")
     print(f"Access it at http://{SERVER_HOST}:{SERVER_PORT}")
-    # print("Available tools via MCP:")
-    # for tool_name in mcp.tools.keys():
-    #     print(f"  - {tool_name}")
-    # print("\n--- Mock Data (Imported - Sample) ---")
-    # print("Sample Order (ORDZW001) from persistent DB:", persistent_orders_db.get("ORDZW001"))
-    # print("Wiki Entry (return policy):", _MOCK_WIKI_DB.get("return policy"))
-    # print("-----------------------------\n")
-
     mcp.run(transport="stdio")
