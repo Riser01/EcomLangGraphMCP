@@ -8,7 +8,7 @@
 A production-ready customer support chatbot built with **Streamlit**, **LangGraph**, and **dual LLM support** (OpenAI/Google Gemini), featuring MCP (Model Context Protocol) tool integration for order management and knowledge base search.
 ## 🖥️ Live Demo Interface
 
-![GreatBuy Chat Interface Demo](assets/UIimage.png)
+![GreatBuy Chat Interface Demo](assets\image.png)
 
 *Experience the interactive chat interface with ReAct agent visualization, tool usage tracking, and real-time response streaming*
 
@@ -28,8 +28,8 @@ A production-ready customer support chatbot built with **Streamlit**, **LangGrap
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/Riser01/swigato_langGraph_agent.git
-cd swigato_langGraph_agent
+git clone https://github.com/Riser01/EcomLangGraphMCP.git
+cd EcomLangGraphMCP
 ```
 
 2. **Setup Environment**
@@ -161,7 +161,7 @@ User: "Hi there! How can you help me?"
 ## 📁 Project Structure
 
 ```
-swigato_langGraph_agent/
+EcomLangGraphMCP/
 ├── app.py                      # Main Streamlit application
 ├── requirements.txt            # Python dependencies
 ├── Dockerfile                 # Docker configuration
