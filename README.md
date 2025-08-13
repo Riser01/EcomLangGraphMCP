@@ -120,7 +120,7 @@ User: "What's the status of ORDZW009 now?"
 
 ### **Knowledge Base Search**
 ```
-User: "Tell me about GreatBuy Gold membership benefits"
+User: "Tell me about 'premium membership' benefits"
 ```
 *Tests: Wiki search for membership information*
 
