@@ -1,6 +1,6 @@
 # 🛒 GreatBuy Customer Support Agent
 <p align="center">
-  <img src="assets/GreatBuy_icon.png" alt="GreatBuy Logo" width="100" height="100">
+  <img src="assets/GreatBuy_icon.png" alt="GreatBuy Logo" width="300" height="300">
 </p>
 
 **GreatBuy** is a modern online marketplace that connects customers with their favorite sellers, offering fast and reliable shipping services across multiple cities. Think of it as a comprehensive e-commerce ecosystem that brings a vast selection of products from diverse categories right to your doorstep with just a few clicks.
@@ -8,7 +8,9 @@
 A production-ready customer support chatbot built with **Streamlit**, **LangGraph**, and **dual LLM support** (OpenAI/Google Gemini), featuring MCP (Model Context Protocol) tool integration for order management and knowledge base search.
 ## 🖥️ Live Demo Interface
 
-![GreatBuy Chat Interface Demo](assets\image.png)
+<p align="center">
+  <img src="assets\image.png" alt="GreatBuy UI" width="1000" height="600">
+</p>
 
 *Experience the interactive chat interface with ReAct agent visualization, tool usage tracking, and real-time response streaming*
 
