@@ -1,12 +1,11 @@
-# 🍕 GreatBuy Customer Support Agent
+# 🛒 GreatBuy Customer Support Agent
 <p align="center">
   <img src="assets/GreatBuy_icon.png" alt="GreatBuy Logo" width="100" height="100">
 </p>
 
-**GreatBuy** is a modern food delivery platform that connects customers with their favorite local restaurants, offering fast and reliable delivery services across multiple cities. Think of it as a comprehensive food ordering ecosystem that brings delicious meals from diverse cuisines right to your doorstep with just a few clicks.
+**GreatBuy** is a modern online marketplace that connects customers with their favorite sellers, offering fast and reliable shipping services across multiple cities. Think of it as a comprehensive e-commerce ecosystem that brings a vast selection of products from diverse categories right to your doorstep with just a few clicks.
 
 A production-ready customer support chatbot built with **Streamlit**, **LangGraph**, and **dual LLM support** (OpenAI/Google Gemini), featuring MCP (Model Context Protocol) tool integration for order management and knowledge base search.
-
 ## 🖥️ Live Demo Interface
 
 ![GreatBuy Chat Interface Demo](assets/UIimage.png)
@@ -103,17 +102,17 @@ Once the application is running, try these demo conversations to test the MCP to
 
 ### **Order Management**
 ```
-User: "Can I get the status of my order ORDZW011?"
+User: "Can I get the status of my order ORDZW009?"
 ```
 *Tests: Order lookup tool with MCP server integration*
 
 ```
-User: "I need to cancel order ORDZW011"
+User: "I need to cancel order ORDZW009"
 ```
 *Tests: Order status update functionality*
 
 ```
-User: "What's the status of ORDZW011 now?"
+User: "What's the status of ORDZW009 now?"
 ```
 *Tests: Verification of order changes*
 
