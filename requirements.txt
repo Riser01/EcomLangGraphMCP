@@ -1,0 +1,21 @@
+# Core dependencies
+streamlit>=1.32.0
+langgraph==0.2.35
+langchain==0.3.15
+langchain-openai==0.2.10
+langchain-google-genai==2.0.5
+
+# MCP integration
+langchain-mcp-adapters>=0.1.0
+mcp>=0.9.0
+
+# Additional utilities
+python-dotenv==1.0.0
+
+# For better error handling and logging
+loguru==0.7.2
+
+# For session state management - using built-in uuid instead
+# uuid==1.30
+
+nest-asyncio>=1.6.0

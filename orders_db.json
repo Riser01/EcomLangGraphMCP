@@ -1,0 +1,346 @@
+{
+  "ORDZW001": {
+    "status": "Processing",
+    "items": [
+      "Wireless Mouse",
+      "Ergonomic Keyboard"
+    ],
+    "customer_id": "cust001",
+    "seller_id": "seller001",
+    "delivery_address": "123 Main St, Metroville, 12345",
+    "logistics_partner_id": null,
+    "order_total": 75.99,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "3-5 business days",
+    "special_instructions": "Please leave the package at the front desk."
+  },
+  "ORDZW002": {
+    "status": "Out for Delivery",
+    "items": [
+      "Men's Cotton T-Shirt (L)",
+      "Slim-Fit Jeans (32/30)"
+    ],
+    "customer_id": "cust002",
+    "seller_id": "seller002",
+    "delivery_address": "456 Oak Ave, Metroville, 12346",
+    "logistics_partner_id": "logi01",
+    "order_total": 58.50,
+    "payment_method": "PayPal",
+    "estimated_delivery_time": "Arriving by 5 PM today",
+    "special_instructions": "Do not leave with neighbors."
+  },
+  "ORDZW003": {
+    "status": "Delivered",
+    "items": [
+      "The Lord of the Rings - Paperback",
+      "Set of 3 Bookmarks"
+    ],
+    "customer_id": "cust001",
+    "seller_id": "seller003",
+    "delivery_address": "123 Main St, Metroville, 12345",
+    "logistics_partner_id": "logi02",
+    "order_total": 32.75,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "Delivered yesterday",
+    "special_instructions": null
+  },
+  "ORDZW004": {
+    "status": "Cancelled",
+    "items": [
+      "Scented Candle Set",
+      "Decorative Throw Pillow"
+    ],
+    "customer_id": "cust003",
+    "seller_id": "seller004",
+    "delivery_address": "789 Pine Rd, Suburbia, 54321",
+    "logistics_partner_id": null,
+    "order_total": 42.00,
+    "payment_method": "COD",
+    "estimated_delivery_time": null,
+    "special_instructions": "Customer requested cancellation."
+  },
+  "ORDZW005": {
+    "status": "Preparing for Shipment",
+    "items": [
+      "Yoga Mat",
+      "Resistance Bands Set"
+    ],
+    "customer_id": "cust004",
+    "seller_id": "seller005",
+    "delivery_address": "101 Maple Dr, Metroville, 12347",
+    "logistics_partner_id": null,
+    "order_total": 35.25,
+    "payment_method": "GreatBuy Wallet",
+    "estimated_delivery_time": "Ships in 1-2 business days",
+    "special_instructions": "Include gift receipt."
+  },
+  "ORDZW006": {
+    "status": "Delivered",
+    "items": [
+      "Building Blocks Set (500 pieces)",
+      "Remote Control Car"
+    ],
+    "customer_id": "cust005",
+    "seller_id": "seller006",
+    "delivery_address": "222 Birch Ln, Suburbia, 54322",
+    "logistics_partner_id": "logi03",
+    "order_total": 69.80,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "Delivered 2 days ago",
+    "special_instructions": "Left at front porch as requested."
+  },
+  "ORDZW007": {
+    "status": "Out for Delivery",
+    "items": [
+      "Vitamin C Serum"
+    ],
+    "customer_id": "cust002",
+    "seller_id": "seller007",
+    "delivery_address": "456 Oak Ave, Metroville, 12346",
+    "logistics_partner_id": "logi04",
+    "order_total": 26.50,
+    "payment_method": "PayPal",
+    "estimated_delivery_time": "Arriving today",
+    "special_instructions": "Fragile item, handle with care."
+  },
+  "ORDZW008": {
+    "status": "Delivered",
+    "items": [
+      "Gourmet Coffee Beans (1kg)",
+      "Artisanal Dark Chocolate Bar"
+    ],
+    "customer_id": "cust006",
+    "seller_id": "seller008",
+    "delivery_address": "333 Willow Cr, Metroville, 12348",
+    "logistics_partner_id": "logi01",
+    "order_total": 42.00,
+    "payment_method": "Debit Card",
+    "estimated_delivery_time": "Delivered last Monday",
+    "special_instructions": null
+  },
+  "ORDZW009": {
+    "status": "Processing",
+    "items": [
+      "Gaming Headset with Mic",
+      "Large Mousepad"
+    ],
+    "customer_id": "cust007",
+    "seller_id": "seller001",
+    "delivery_address": "414 Cedar Pl, Suburbia, 54323",
+    "logistics_partner_id": null,
+    "order_total": 90.50,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "4-6 business days",
+    "special_instructions": "Please ensure the box is sealed."
+  },
+  "ORDZW010": {
+    "status": "Issue Reported",
+    "items": [
+      "Winter Jacket (M)",
+      "Wool Scarf"
+    ],
+    "customer_id": "cust002",
+    "seller_id": "seller002",
+    "delivery_address": "456 Oak Ave, Metroville, 12346",
+    "logistics_partner_id": "logi02",
+    "order_total": 117.00,
+    "payment_method": "PayPal",
+    "estimated_delivery_time": "Resolved",
+    "special_instructions": "Customer reported wrong size for jacket, replacement issued."
+  },
+  "ORDZW011": {
+    "status": "Awaiting Shipment",
+    "items": [
+      "A Game of Thrones - Hardcover",
+      "Leather-bound Journal"
+    ],
+    "customer_id": "cust008",
+    "seller_id": "seller003",
+    "delivery_address": "505 Spruce St, Metroville, 12349",
+    "logistics_partner_id": null,
+    "order_total": 54.00,
+    "payment_method": "GreatBuy Wallet",
+    "estimated_delivery_time": null,
+    "special_instructions": "Add a gift note: 'Happy Reading!'"
+  },
+  "ORDZW012": {
+    "status": "Payment Failed",
+    "items": [
+      "Non-stick Frying Pan",
+      "Silicone Spatula Set"
+    ],
+    "customer_id": "cust009",
+    "seller_id": "seller004",
+    "delivery_address": "606 Redwood Ave, Suburbia, 54324",
+    "logistics_partner_id": null,
+    "order_total": 48.50,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": null,
+    "special_instructions": "Please try another payment method."
+  },
+  "ORDZW013": {
+    "status": "Delivered",
+    "items": [
+      "Adjustable Dumbbells Set",
+      "Kettlebell (8kg)"
+    ],
+    "customer_id": "cust010",
+    "seller_id": "seller005",
+    "delivery_address": "707 Elm Rd, Metroville, 12350",
+    "logistics_partner_id": "logi03",
+    "order_total": 118.75,
+    "payment_method": "COD",
+    "estimated_delivery_time": "Delivered 3 days ago",
+    "special_instructions": null
+  },
+  "ORDZW014": {
+    "status": "Preparing for Shipment",
+    "items": [
+      "Catan Board Game"
+    ],
+    "customer_id": "cust011",
+    "seller_id": "seller006",
+    "delivery_address": "808 Aspen Ct, Suburbia, 54325",
+    "logistics_partner_id": null,
+    "order_total": 44.99,
+    "payment_method": "Debit Card",
+    "estimated_delivery_time": "2-3 business days",
+    "special_instructions": "Do not bend the package."
+  },
+  "ORDZW015": {
+    "status": "Out for Delivery",
+    "items": [
+      "Moisturizing Sunscreen SPF 50",
+      "Lip Balm (3-pack)"
+    ],
+    "customer_id": "cust012",
+    "seller_id": "seller007",
+    "delivery_address": "909 Fir Way, Metroville, 12351",
+    "logistics_partner_id": "logi04",
+    "order_total": 39.20,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "Arriving by end of day",
+    "special_instructions": "Signature required."
+  },
+  "ORDZW016": {
+    "status": "Delivered",
+    "items": [
+      "Assorted Tea Box (48 bags)"
+    ],
+    "customer_id": "cust013",
+    "seller_id": "seller008",
+    "delivery_address": "111 Juniper Pl, Suburbia, 54326",
+    "logistics_partner_id": "logi01",
+    "order_total": 26.00,
+    "payment_method": "GreatBuy Wallet",
+    "estimated_delivery_time": "Delivered yesterday",
+    "special_instructions": "Happy Birthday message included in box."
+  },
+  "ORDZW017": {
+    "status": "Cancelled by Seller",
+    "items": [
+      "Laptop Stand",
+      "USB-C Docking Station"
+    ],
+    "customer_id": "cust014",
+    "seller_id": "seller001",
+    "delivery_address": "222 Sycamore Dr, Metroville, 12352",
+    "logistics_partner_id": null,
+    "order_total": 85.50,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": null,
+    "special_instructions": "Sorry, item is currently out of stock."
+  },
+  "ORDZW018": {
+    "status": "Processing",
+    "items": [
+      "Running Shoes (Size 10)",
+      "Athletic Socks (5-pack)"
+    ],
+    "customer_id": "cust015",
+    "seller_id": "seller002",
+    "delivery_address": "333 Magnolia Ave, Suburbia, 54327",
+    "logistics_partner_id": null,
+    "order_total": 121.75,
+    "payment_method": "PayPal",
+    "estimated_delivery_time": "5-7 business days",
+    "special_instructions": "Ensure shoes are in the original box."
+  },
+  "ORDZW019": {
+    "status": "Awaiting Shipment",
+    "items": [
+      "Dune - Hardcover",
+      "The Martian - Paperback"
+    ],
+    "customer_id": "cust016",
+    "seller_id": "seller003",
+    "delivery_address": "444 Poplar St, Metroville, 12353",
+    "logistics_partner_id": null,
+    "order_total": 47.80,
+    "payment_method": "Debit Card",
+    "estimated_delivery_time": "3-5 business days",
+    "special_instructions": null
+  },
+  "ORDZW020": {
+    "status": "Delivered",
+    "items": [
+      "Blender",
+      "Toaster",
+      "Coffee Maker"
+    ],
+    "customer_id": "cust017",
+    "seller_id": "seller004",
+    "delivery_address": "555 Chestnut Rd, Suburbia, 54328",
+    "logistics_partner_id": "logi02",
+    "order_total": 130.15,
+    "payment_method": "COD",
+    "estimated_delivery_time": "Delivered this morning",
+    "special_instructions": "All items packed in one large box."
+  },
+  "ORDZW021": {
+    "status": "Out for Delivery",
+    "items": [
+      "Protein Powder (Vanilla)",
+      "Shaker Bottle"
+    ],
+    "customer_id": "cust018",
+    "seller_id": "seller005",
+    "delivery_address": "666 Hemlock Cr, Metroville, 12354",
+    "logistics_partner_id": "logi03",
+    "order_total": 49.90,
+    "payment_method": "GreatBuy Wallet",
+    "estimated_delivery_time": "Arriving in 2 hours",
+    "special_instructions": "Please include a receipt."
+  },
+  "ORDZW022": {
+    "status": "Preparing for Shipment",
+    "items": [
+      "Jigsaw Puzzle (1000 pieces)",
+      "Deck of Playing Cards"
+    ],
+    "customer_id": "cust019",
+    "seller_id": "seller006",
+    "delivery_address": "777 Cypress Ln, Suburbia, 54329",
+    "logistics_partner_id": null,
+    "order_total": 33.40,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "Ships tomorrow",
+    "special_instructions": "Use separate boxes for each item if possible."
+  },
+  "ORDZW023": {
+    "status": "Delivered",
+    "items": [
+      "Face Cleanser",
+      "Toner",
+      "Moisturizer"
+    ],
+    "customer_id": "cust005",
+    "seller_id": "seller007",
+    "delivery_address": "222 Birch Ln, Suburbia, 54322",
+    "logistics_partner_id": "logi04",
+    "order_total": 66.50,
+    "payment_method": "Credit Card",
+    "estimated_delivery_time": "Delivered 4 days ago",
+    "special_instructions": "This is part of a recurring subscription."
+  }
+}
